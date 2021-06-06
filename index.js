@@ -1311,5 +1311,5 @@ app.get('/', (req, res) => {
           }
         ]
       }
-  res.send(api)
+  res.write('hello')
 })
