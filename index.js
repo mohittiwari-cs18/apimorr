@@ -1,7 +1,7 @@
 
 const express = require('express')
 const app = express()
-const port = 4500
+const port = process.env.port || 4500 
 
 
 app.listen(port, () => console.log(`Api is live`))
