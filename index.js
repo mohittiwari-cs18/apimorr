@@ -1311,5 +1311,5 @@ app.get('/', (req, res) => {
           }
         ]
       }
-  res.write('hello')
+  res.sendfile(__dirname + '/index.html'  )
 })
